@@ -1,5 +1,5 @@
 {
-  "name": "ryanwinchester/netsuite-php",
+  "name": "mattanger/netsuite-php",
   "description": "NetSuite PHP API wrapper",
   "keywords": [ "netsuite", "api", "php" ],
   "type": "library",
@@ -8,6 +8,10 @@
     {
       "name": "Ryan Winchester (fungku)",
       "email": "fungku@gmail.com"
+    },
+    {
+        "name":"Matt Anger",
+        "m@mattanger.com"
     }
   ],
   "require": {
