@@ -88,7 +88,7 @@ function setFields($object, array $fieldArray=null)
                 if (is_object($item)) {
                     // example: $item1 = new nsComplexObject('SalesOrderItem');
                     $val[] = $item;
-                } elseif ($typesmap[$fldName] == "string") {
+                } elseif ($typesmap[$fldName] == "string[]") {
                     // handle enums
                     $val[] = $item;
                 } else {
